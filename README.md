@@ -17,15 +17,24 @@ A complete documentation for Linux on the PlayStation 4
 | PS4       | Kernel     |
 |--------------|-----------|
 | Aeolia | [**4.14.93** (Most Stable - HDD Support - By Psxita)](https://mega.nz/file/EJhBzTIQ#rpbOcpIpulojUxRUiZjLQ7RqS6tlNc6JmcCrgSxyG-g) 
-||[**5.3.18** (BETA - Vulkan support - HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImageAeolia) 
-||[**5.15.15** (BETA - Vulkan support - HDD Support - by codedwrench)](https://mega.nz/file/p15mWCwL#h8hDT8Uu2rGWadBnRPTp4V_fpgld6rcHodmsxJFUldA)|
+||         [**5.3.18** (BETA - Vulkan support - HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImageAeolia) 
+||         [**5.15.15** (BETA - Vulkan support - HDD Support - by codedwrench)](https://mega.nz/file/p15mWCwL#h8hDT8Uu2rGWadBnRPTp4V_fpgld6rcHodmsxJFUldA)|
 | Belize | [**4.14.93** (Most Stable - HDD Support - By tihmstar)](https://github.com/Nazky/ps4-linux/releases/download/4.19.93-belize/bzImage) 
-||[**5.3.18** (BETA - Vulkan support - HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImage) 
-||[**5.15.15** (BETA - Vulkan support - HDD Support - by codedwrench)](https://mega.nz/file/It5nAYhZ#XHpBMVWpvKXdPtO0NZi1iRFzk_mJssuX2fLVSRWFnS0) |
+||         [**5.3.18** (BETA - Vulkan support - HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImage) 
+||         [**5.15.15** (BETA - Vulkan support - HDD Support - by codedwrench)](https://mega.nz/file/It5nAYhZ#XHpBMVWpvKXdPtO0NZi1iRFzk_mJssuX2fLVSRWFnS0) |
 | Baikal | [**4.14.93** (Most Stable - No HDD Support - By Psxita)](https://mega.nz/file/4FhBjbaS#zgy2TFTPN1fdWLyLZaJJBfIv2cZQOExdXvfYRVqIHNU) 
-||[**5.3.18** (BETA - Vulkan support - No HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImageBaikal) |
+||         [**5.3.18** (BETA - Vulkan support - No HDD Support - By Mircoho)](https://github.com/ps4boot/ps4-linux/releases/download/v1/bzImageBaikal) |
 
 Aeolia, Belize and Baikal are based on the you'r PS4 model take a look [here](https://www.psdevwiki.com/ps4/Southbridge#Southbridge_revisions) (thanks to [@Plattntektonik](https://twitter.com/Plattntektonik))
+
+### New experimental kernels:
+
+| PS4       | Kernel     |
+|--------------|-----------|
+| Aeolia / Belize | [**6.1.y** (BETA - Vulkan support - HDD Support - By crashniels)](https://github.com/crashniels/linux/actions/runs/14451804454/artifacts/2941976169) 
+||                  [**6.12.y** (BETA - Vulkan support - HDD Support - By crashniels)](https://github.com/crashniels/linux/actions/runs/14451796641/artifacts/2941992573) |
+
+Known bugs are listed [here](https://github.com/crashniels/linux/issues)
 
 ### Initramfs.cpio.gz.
 
